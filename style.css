@@ -241,6 +241,23 @@ ul {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+@media only screen and (max-width: 600px) {
+  .photos_wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr !important;
+    background-color: f2ffab;
+  }
+  .photo {
+    width: 6em;
+    height: 6em;
+  }
+  .photo_title {
+    width: 82%;
+    text-align: center;
+    font-size: 13px;
+  }
+}
+
 .photo_title {
   width: 82%;
   text-align: center;
